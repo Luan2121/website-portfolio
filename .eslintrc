@@ -1,0 +1,23 @@
+{
+    "extends": [
+        "eslint:recommended", 
+        "prettier",
+        "plugin:react/recommended"
+    ],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2017
+    },
+    "env": {
+        "amd": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": "off",
+        "linebreak-style": ["error", "unix"],
+        "semi": ["error", "always"],
+        "react/react-in-jsx-scope": "off"
+    }
+}
